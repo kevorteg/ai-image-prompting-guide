@@ -1,26 +1,45 @@
-# 🎨 Guía Definitiva para la Creación de Imágenes con IA
-> **Del Concepto a la Obra Maestra Visual**
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Gu%C3%ADa+Definitiva+IA;Midjourney+%26+Stable+Diffusion;Del+Concepto+a+la+Obra;Kevin+Ortega+presents" alt="Typing SVG" />
+</h1>
 
-## 1.0 Introducción: El Arte de Dialogar con la IA Visual 🤖
+<p align="center">
+  <strong>Desarrollador Full Stack & Diseñador Creativo</strong><br>
+  Escribiendo código limpio y creando experiencias digitales interactivas.
+</p>
 
-### 1.1. La Importancia Estratégica del Prompt 🎯
-La generación de imágenes a través de inteligencia artificial (IA) está transformando radicalmente los campos creativos. En el corazón de esta revolución se encuentra el **prompt**: una instrucción escrita que guía a un modelo de IA. A diferencia de los chatbots, un prompt visual es como el plano de un arquitecto 📐 o la dirección de un director de arte 🎬.
+<p align="center">
+  <a href="https://kevorteg.github.io/portafolio/">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-KevinOS-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="KevinOS Live" />
+  </a>
+</p>
 
+<br>
+
+<div align="center">
+  
 > [!IMPORTANT]
 > "La calidad de las imágenes generadas depende directamente de lo claro y específico que sea tu mensaje".
 
-### 1.2. Los Beneficios de un Prompt Efectivo 🚀
-Dominar la redacción de prompts efectivos es una ventaja estratégica:
-*   ⏱️ **Ahorro de tiempo**: Evita la frustración de la prueba y el error.
-*   ✅ **Mayor coherencia**: Logra resultados consistentes y predecibles.
-*   🧠 **Máximo potencial creativo**: Desbloquea capacidades artísticas complejas.
+</div>
 
 ---
 
-## 2.0 Los Pilares Fundamentales de un Prompt Magistral 🏛️
+## 1.0 Introducción: El Arte de Dialogar con la IA Visual 🤖
+La generación de imágenes a través de inteligencia artificial (IA) está transformando radicalmente los campos creativos. En el corazón de esta revolución se encuentra el **prompt**: una instrucción escrita que guía a un modelo de IA. A diferencia de los chatbots, un prompt visual es como el plano de un arquitecto 📐 o la dirección de un director de arte 🎬.
+
+### 1.2. Los Beneficios 🚀
+*   ⏱️ **Ahorro de tiempo**: Evita la frustración.
+*   ✅ **Mayor coherencia**: Resultados predecibles.
+*   🧠 **Máximo potencial**: Desbloquea creatividad.
+
+---
+
+<details>
+<summary><h2>🏛️ 2.0 Los Pilares Fundamentales (Desplegar)</h2></summary>
+<br>
 
 ### 2.1. Hacia una Estructura Ideal
-Un prompt magistral se construye por capas. Aquí presentamos la anatomía basada en 4 pilares.
+Un prompt magistral se construye por capas.
 
 ### 2.2. Pilar 1: El Sujeto y la Escena (El Qué) 👤
 Constituye el núcleo de tu imagen. Define el sujeto principal y la acción.
@@ -32,7 +51,7 @@ Constituye el núcleo de tu imagen. Define el sujeto principal y la acción.
 Sitúa al sujeto en un contexto y dirige la cámara.
 
 <details>
-<summary><strong>📸 Desplegar Guía de Composición y Ángulos (Click aquí)</strong></summary>
+<summary><strong>📸 Desplegar Guía de Composición y Ángulos</strong></summary>
 
 | Térrmimo | Descripción |
 | :--- | :--- |
@@ -48,7 +67,7 @@ Sitúa al sujeto en un contexto y dirige la cámara.
 Define el estado de ánimo y el volumen.
 
 <details>
-<summary><strong>🔦 Desplegar Catálogo de Iluminación Técnica (Click aquí)</strong></summary>
+<summary><strong>🔦 Desplegar Catálogo de Iluminación Técnica</strong></summary>
 
 | Término | Efecto Artístico |
 | :--- | :--- |
@@ -67,9 +86,13 @@ Define el "acabado" visual.
 *   **Medio:** `Oil painting`, `Digital art`, `Polaroid`, `3D Render`.
 *   **Estilo:** `Surrealism`, `Cyberpunk`, `Minimalist`, `Studio Ghibli style`.
 
+</details>
+
 ---
 
-## 3.0 Técnicas Avanzadas para un Control de Precisión 🎛️
+<details>
+<summary><h2>🎛️ 3.0 Técnicas Avanzadas (Desplegar)</h2></summary>
+<br>
 
 ### 3.2. Control de Énfasis: Ponderación (Keyword Weighting) ⚖️
 En herramientas como Midjourney, usa `::` para asignar importancia.
@@ -103,9 +126,13 @@ Control fino sobre el renderizado.
 Usa una URL de imagen junto al texto para guiar la composición o estilo.
 `[URL de Imagen] + Texto descriptivo + Parámetros`
 
+</details>
+
 ---
 
-## 4.0 Flujos de Trabajo y Solución de Problemas 🛠️
+<details>
+<summary><h2>🛠️ 4.0 Flujos de Trabajo (Desplegar)</h2></summary>
+<br>
 
 ### 4.2. Estrategia de Iteración 🔄
 1.  **Fundamento**: Concepto central.
@@ -126,9 +153,13 @@ Usa una URL de imagen junto al texto para guiar la composición o estilo.
 
 </details>
 
+</details>
+
 ---
 
-## 5.0 Galería de Ejemplos y Plantillas 📂
+<details>
+<summary><h2>📂 5.0 Galería de Ejemplos (Desplegar)</h2></summary>
+<br>
 
 ### 5.2. Plantilla Maestra 📝
 Copia esto para empezar:
@@ -217,7 +248,10 @@ ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern
 }
 ```
 
+</details>
+
 ---
 
-## 6.0 Conclusión
-Escribir prompts es un diálogo. ¡Experimenta, itera y crea! 🚀
+<center>
+  <sub>Creado con ❤️ por Kevin Ortega</sub>
+</center>
