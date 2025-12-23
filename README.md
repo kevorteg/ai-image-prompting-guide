@@ -8,9 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://kevorteg.github.io/portafolio/">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-KevinOS-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="KevinOS Live" />
-  </a>
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Nano_Banana-FFE135?style=for-the-badge&logo=bananagaming&logoColor=black" alt="Nano Banana" />
+  <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Midjourney-FA0F00?style=for-the-badge&logo=midjourney&logoColor=white" alt="Midjourney" />
+  <img src="https://img.shields.io/badge/Stable_Diffusion-000000?style=for-the-badge&logo=stabilityai&logoColor=white" alt="Stable Diffusion" />
 </p>
 
 <br>
