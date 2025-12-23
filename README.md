@@ -152,11 +152,11 @@ Copia esto para empezar:
 A continuación, ejemplos prácticos con su respectiva visualización.
 
 > [!WARNING]
-> **Nota:** Para ver las imágenes, asegúrate de guardar tus archivos en la carpeta `assets` creada anteriormente.
+> **Nota:** Arrastra tus imágenes aquí manualmente para visualizarlas.
 
 #### 🚤 1. Escena Fotorrealista
 *Capturing atmospheric depth and texture in a marine setting.*
-<img width="500" alt="Fishing Boat" src="assets/fishing_boat_example.jpg" />
+<!-- [Inserte imagen aquí] -->
 
 **Prompt:**
 ```text
@@ -165,7 +165,7 @@ A weathered fishing boat docked at a New England harbor during golden hour, with
 
 #### 📚 2. Concepto Surrealista
 *Complex architectural geometry and impossible physics.*
-<img width="350" alt="Surreal Library" src="assets/surreal_library_example.jpg" />
+<!-- [Inserte imagen aquí] -->
 
 **Prompt:**
 ```text
@@ -174,7 +174,7 @@ An impossible library where bookshelves extend infinitely in all directions, rea
 
 #### 🎧 3. Producto Comercial
 *Clean, studio-quality product photography for e-commerce.*
-<img width="400" alt="Headphones Product" src="assets/headphones_product.jpg" />
+<!-- [Inserte imagen aquí] -->
 
 **Prompt:**
 ```text
@@ -183,7 +183,7 @@ Premium wireless headphone product shot on a minimalist white surface with subtl
 
 #### 👥 4. Composición de Multitudes (Hyper-Realistic)
 *Handling complex compositions with multiple faces and specific lighting.*
-<img width="500" alt="Celebrity Crowd" src="assets/celebrity_crowd.jpg" />
+<!-- [Inserte imagen aquí] -->
 
 **Prompt:**
 ```text
@@ -195,7 +195,7 @@ ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern
 
 #### 🤳 5. 2000s Mirror Selfie (JSON Format)
 *Generating a specific aesthetic using structured data.*
-<img width="350" alt="2000s Selfie" src="assets/2000s_selfie.jpg" />
+<!-- [Inserte imagen aquí] -->
 
 **Prompt:**
 ```json
