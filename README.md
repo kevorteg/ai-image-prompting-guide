@@ -6,6 +6,7 @@
 ### 1.1. La Importancia Estratégica del Prompt 🎯
 La generación de imágenes a través de inteligencia artificial (IA) está transformando radicalmente los campos creativos. En el corazón de esta revolución se encuentra el **prompt**: una instrucción escrita que guía a un modelo de IA. A diferencia de los chatbots, un prompt visual es como el plano de un arquitecto 📐 o la dirección de un director de arte 🎬.
 
+> [!IMPORTANT]
 > "La calidad de las imágenes generadas depende directamente de lo claro y específico que sea tu mensaje".
 
 ### 1.2. Los Beneficios de un Prompt Efectivo 🚀
@@ -23,7 +24,9 @@ Un prompt magistral se construye por capas. Aquí presentamos la anatomía basad
 
 ### 2.2. Pilar 1: El Sujeto y la Escena (El Qué) 👤
 Constituye el núcleo de tu imagen. Define el sujeto principal y la acción.
-> *Ejemplo:* Un astronauta explorando ruinas antiguas.
+
+> [!TIP]
+> **Ejemplo:** Un astronauta explorando ruinas antiguas. Se específico desde el inicio.
 
 ### 2.3. Pilar 2: El Entorno y la Composición (El Dónde y el Cómo) 🌍
 Sitúa al sujeto en un contexto y dirige la cámara.
@@ -71,15 +74,19 @@ Define el "acabado" visual.
 ### 3.2. Control de Énfasis: Ponderación (Keyword Weighting) ⚖️
 En herramientas como Midjourney, usa `::` para asignar importancia.
 
-*   `samurai::1 and bird::1` → Fusión híbrida.
-*   `samurai::2 and bird::1` → Samurái dominante con pájaro secundario.
-*   `fire:: fighter::` → Separa conceptos ("fuego" y "luchador") vs `firefighter` (bombero).
+> [!NOTE]
+> *   `samurai::1 and bird::1` → Fusión híbrida.
+> *   `samurai::2 and bird::1` → Samurái dominante con pájaro secundario.
+> *   `fire:: fighter::` → Separa conceptos ("fuego" y "luchador") vs `firefighter` (bombero).
 
 ### 3.3. Exclusión: Prompts Negativos 🚫
 Dile a la IA qué **NO** incluir (`--no` en MJ).
-*   `--no text`: Evita letras o firmas.
-*   `--no distorted hands`: Mejora anatomía.
-*   `--no overexposure`: Controla luces quemadas.
+
+> [!CAUTION]
+> Usa esto para limpiar errores comunes, no para describir lo que falta.
+> *   `--no text`: Evita letras o firmas.
+> *   `--no distorted hands`: Mejora anatomía.
+> *   `--no overexposure`: Controla luces quemadas.
 
 ### 3.4. Ajuste de Parámetros Técnicos ⚙️
 Control fino sobre el renderizado.
@@ -143,7 +150,9 @@ Copia esto para empezar:
 ### 5.3. Casos de Uso
 
 A continuación, ejemplos prácticos con su respectiva visualización.
-> **Nota:** Para ver las imágenes, guarda tus archivos en la carpeta `assets` con los nombres indicados.
+
+> [!WARNING]
+> **Nota:** Para ver las imágenes, asegúrate de guardar tus archivos en la carpeta `assets` creada anteriormente.
 
 #### 🚤 1. Escena Fotorrealista
 *Capturing atmospheric depth and texture in a marine setting.*
