@@ -142,14 +142,71 @@ Copia esto para empezar:
 
 ### 5.3. Casos de Uso
 
-#### 🚤 Escena Fotorrealista
-> "A weathered fishing boat docked at a New England harbor during golden hour, with lobster traps stacked on the deck, seagulls perched on the mast. Shot with a 35mm lens, shallow depth of field. --ar 3:2"
+A continuación, ejemplos prácticos con su respectiva visualización.
+> **Nota:** Para ver las imágenes, guarda tus archivos en la carpeta `assets` con los nombres indicados.
 
-#### 📚 Concepto Surrealista
-> "An impossible library where bookshelves extend infinitely in all directions, readers sitting on floating chairs. Escher-inspired architecture with stairs leading in contradictory directions. Volumetric lighting. --ar 9:16"
+#### 🚤 1. Escena Fotorrealista
+*Capturing atmospheric depth and texture in a marine setting.*
+<img width="500" alt="Fishing Boat" src="assets/fishing_boat_example.jpg" />
 
-#### 🎧 Producto Comercial
-> "Premium wireless headphone product shot on a minimalist white surface with subtle gradient lighting from upper left, soft shadows, metallic accents. Professional studio photography, commercial quality. --ar 4:5"
+**Prompt:**
+```text
+A weathered fishing boat docked at a New England harbor during golden hour, with lobster traps stacked on the deck, seagulls perched on the mast, and warm sunlight creating long shadows across the wooden planks. Shot with a 35mm lens, shallow depth of field. --ar 3:2
+```
+
+#### 📚 2. Concepto Surrealista
+*Complex architectural geometry and impossible physics.*
+<img width="350" alt="Surreal Library" src="assets/surreal_library_example.jpg" />
+
+**Prompt:**
+```text
+An impossible library where bookshelves extend infinitely in all directions, readers sitting on floating chairs. Escher-inspired architecture with stairs leading in contradictory directions. Volumetric lighting. --ar 9:16
+```
+
+#### 🎧 3. Producto Comercial
+*Clean, studio-quality product photography for e-commerce.*
+<img width="400" alt="Headphones Product" src="assets/headphones_product.jpg" />
+
+**Prompt:**
+```text
+Premium wireless headphone product shot on a minimalist white surface with subtle gradient lighting from upper left, soft shadows, metallic accents. Professional studio photography, commercial quality. --ar 4:5
+```
+
+#### 👥 4. Composición de Multitudes (Hyper-Realistic)
+*Handling complex compositions with multiple faces and specific lighting.*
+<img width="500" alt="Celebrity Crowd" src="assets/celebrity_crowd.jpg" />
+
+**Prompt:**
+```text
+Create a hyper-realistic, ultra-sharp, full-color large-format image featuring a massive group of celebrities from different eras, all standing together in a single wide cinematic frame. The image must look like a perfectly photographed editorial cover with impeccable lighting, lifelike skin texture, high dynamic range, calibrated color grading.
+
+GENERAL STYLE: Photorealistic, 8k, shallow depth of field, soft natural fill light + strong golden rim light. Slightly wide-angle lens (35mm).
+ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern city skyline.
+```
+
+#### 🤳 5. 2000s Mirror Selfie (JSON Format)
+*Generating a specific aesthetic using structured data.*
+<img width="350" alt="2000s Selfie" src="assets/2000s_selfie.jpg" />
+
+**Prompt:**
+```json
+{
+  "subject": {
+    "description": "A young woman taking a mirror selfie",
+    "hair": { "style": "very long, voluminous waves with soft wispy bangs" },
+    "clothing": { "top": "fitted cropped t-shirt with anime-style cat face" }
+  },
+  "photography": {
+    "camera_style": "early-2000s digital camera aesthetic",
+    "lighting": "harsh super-flash with bright blown-out highlights",
+    "texture": "subtle grain, retro highlights"
+  },
+  "background": {
+    "setting": "nostalgic early-2000s bedroom",
+    "elements": ["posters", "beaded door curtain", "cluttered vanity"]
+  }
+}
+```
 
 ---
 
