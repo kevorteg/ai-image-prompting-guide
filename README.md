@@ -38,11 +38,12 @@ La generación de imágenes a través de inteligencia artificial (IA) está tran
 ## 2.0 Los Pilares Fundamentales 🏛️
 
 ### 2.1. Pilar 1: El Sujeto y la Escena (El Qué) 👤
-Define el núcleo de tu imagen. Se específico.
+Define el núcleo de tu imagen. Sé específico desde el inicio para evitar que la IA rellene huecos con ideas genéricas.
 > [!TIP]
 > **Ejemplo:** En lugar de "Un astronauta", prueba con "Un astronauta explorando ruinas antiguas cubiertas de musgo".
 
 ### 2.2. Pilar 2: El Entorno y la Composición 🌍
+Sitúa al sujeto en un contexto y dirige la cámara.
 <details>
 <summary><strong>📸 Ver Guía de Ángulos y Perspectivas (Click para expandir)</strong></summary>
 
@@ -51,10 +52,12 @@ Define el núcleo de tu imagen. Se específico.
 | **Wide-angle view** | Captura un campo de visión amplio (paisajes). |
 | **Close-up macro shot** | Enfoque en detalles minúsculos y texturas. |
 | **Bird's eye view** | Vista desde arriba (omnisciente). |
+| **Eye-level perspective** | Vista natural y directa. |
 | **Dutch angle** | Cámara inclinada para tensión o dinamismo. |
 </details>
 
 ### 2.3. Pilar 3: La Iluminación 💡
+Define el estado de ánimo y el volumen de la escena.
 <details>
 <summary><strong>🔦 Ver Catálogo de Iluminación Técnica (Click para expandir)</strong></summary>
 
@@ -63,7 +66,8 @@ Define el núcleo de tu imagen. Se específico.
 | **Golden hour** | Sombras largas, atmósfera cálida y nostálgica. |
 | **Dramatic side lighting** | Sombras fuertes, alto contraste, tensión. |
 | **Volumetric / Cinematic** | Atmósfera densa, haces de luz visibles. |
-| **Rim lighting** | Luz trasera que define el contorno. |
+| **Rim lighting** | Luz trasera que define el contorno (separación del fondo). |
+| **Soft box lighting** | Elimina sombras duras (ideal para retratos). |
 </details>
 
 ---
@@ -71,21 +75,22 @@ Define el núcleo de tu imagen. Se específico.
 ## 3.0 Técnicas Avanzadas 🎛️
 
 ### 3.1. Control de Énfasis (Weighting) ⚖️
-En Midjourney, usa `::` para asignar importancia:
-* `samurai::2 and bird::1` → El samurái es el doble de importante que el pájaro.
+En herramientas como Midjourney, usa `::` para asignar importancia relativa a los conceptos:
+* `samurai::2 and bird::1` → Samurái dominante con pájaro secundario.
 
 ### 3.2. Prompts Negativos 🚫
-Usa `--no` para limpiar errores:
+Dile a la IA qué **no** incluir para limpiar el renderizado:
 * `--no text distorted hands overexposure`
 
 <details>
 <summary><strong>⚙️ Ver Parámetros Técnicos (Aspect Ratio, Chaos, Seeds...)</strong></summary>
 
-| Parámetro | Comando | Función |
+| Parámetro | Comando (Ej) | Función |
 | :--- | :--- | :--- |
-| **Aspect Ratio** | `--ar 16:9` | Proporciones de la imagen. |
-| **Estilización** | `--s 300` | Creatividad (0-1000). |
-| **Caos** | `--c 50` | Variedad de las 4 imágenes iniciales. |
+| **Aspect Ratio** | `--ar 16:9` | Proporciones de la imagen (Ancho:Alto). |
+| **Calidad** | `--q .5` | Detalle vs Velocidad de renderizado. |
+| **Estilización** | `--s 300` | Creatividad (Bajo = Literal, Alto = Artístico). |
+| **Caos** | `--c 50` | Variedad inicial de las propuestas. |
 </details>
 
 ---
@@ -93,18 +98,19 @@ Usa `--no` para limpiar errores:
 ## 4.0 Galería de Ejemplos y Plantilla 📂
 
 ### 📝 Plantilla Maestra
+Copia y rellena este esquema para obtener resultados profesionales:
 ```text
 [Sujeto y acción] + [Lugar y perspectiva] + [Tipo de luz y atmósfera] + [Estilo artístico] --ar 16:9
 ```
 
-<details> 
-<summary><strong>🎨 Ver Casos de Uso Reales (Fotorrealismo, Surrealismo, Producto...)</strong></summary>
+<details> <summary><strong>🎨 Ver Casos de Uso Reales (Click para desplegar ejemplos)</strong></summary>
 
 > [!WARNING]
-> **Nota:** Arrastra tus imágenes aquí manualmente para visualizarlas.
+> **Nota:** Arrastra tus imágenes generadas aquí para visualizarlas junto al prompt.
 
 #### 🚤 1. Escena Fotorrealista
 *Capturing atmospheric depth and texture in a marine setting.*
+
 <!-- [Inserte imagen aquí] -->
 
 **Prompt:**
@@ -114,6 +120,7 @@ A weathered fishing boat docked at a New England harbor during golden hour, with
 
 #### 📚 2. Concepto Surrealista
 *Complex architectural geometry and impossible physics.*
+
 <!-- [Inserte imagen aquí] -->
 
 **Prompt:**
@@ -123,6 +130,7 @@ An impossible library where bookshelves extend infinitely in all directions, rea
 
 #### 🎧 3. Producto Comercial
 *Clean, studio-quality product photography for e-commerce.*
+
 <!-- [Inserte imagen aquí] -->
 
 **Prompt:**
@@ -130,20 +138,9 @@ An impossible library where bookshelves extend infinitely in all directions, rea
 Premium wireless headphone product shot on a minimalist white surface with subtle gradient lighting from upper left, soft shadows, metallic accents. Professional studio photography, commercial quality. --ar 4:5
 ```
 
-#### 👥 4. Composición de Multitudes (Hyper-Realistic)
-*Handling complex compositions with multiple faces and specific lighting.*
-<!-- [Inserte imagen aquí] -->
-
-**Prompt:**
-```text
-Create a hyper-realistic, ultra-sharp, full-color large-format image featuring a massive group of celebrities from different eras, all standing together in a single wide cinematic frame. The image must look like a perfectly photographed editorial cover with impeccable lighting, lifelike skin texture, high dynamic range, calibrated color grading.
-
-GENERAL STYLE: Photorealistic, 8k, shallow depth of field, soft natural fill light + strong golden rim light. Slightly wide-angle lens (35mm).
-ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern city skyline.
-```
-
-#### 🤳 5. 2000s Mirror Selfie (JSON Format)
+#### 🤳 4. 2000s Mirror Selfie (JSON Format)
 *Generating a specific aesthetic using structured data.*
+
 <!-- [Inserte imagen aquí] -->
 
 **Prompt:**
@@ -151,17 +148,12 @@ ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern
 {
   "subject": {
     "description": "A young woman taking a mirror selfie",
-    "hair": { "style": "very long, voluminous waves with soft wispy bangs" },
-    "clothing": { "top": "fitted cropped t-shirt with anime-style cat face" }
+    "hair": { "style": "very long, voluminous waves" },
+    "clothing": { "top": "fitted cropped t-shirt" }
   },
   "photography": {
     "camera_style": "early-2000s digital camera aesthetic",
-    "lighting": "harsh super-flash with bright blown-out highlights",
-    "texture": "subtle grain, retro highlights"
-  },
-  "background": {
-    "setting": "nostalgic early-2000s bedroom",
-    "elements": ["posters", "beaded door curtain", "cluttered vanity"]
+    "lighting": "harsh super-flash"
   }
 }
 ```
@@ -169,4 +161,4 @@ ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern
 </details>
 
 <br>
-<p align="center">Creado con ❤️ por <strong>Kevin Ortega</strong></p>
+<p align="center"> Creado con ❤️ por <strong>Kevin Ortega</strong> </p>
