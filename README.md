@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  <strong>Desarrollador Full Stack & Diseñador Creativo</strong><br>
-  Escribiendo código limpio y creando experiencias digitales interactivas.
+  <strong>Dominando la Generación de Imágenes con IA</strong><br>
+  Una referencia exhaustiva para crear arte digital preciso en Midjourney, Stable Diffusion y DALL-E.
 </p>
 
 <p align="center">
