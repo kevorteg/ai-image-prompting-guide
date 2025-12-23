@@ -1,7 +1,3 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Gu%C3%ADa+Definitiva+IA;Midjourney+%26+Stable+Diffusion;Del+Concepto+a+la+Obra;Kevin+Ortega+presents" alt="Typing SVG" />
-</h1>
-
 <p align="center">
   <strong>Dominando la Generación de Imágenes con IA</strong><br>
   Una referencia exhaustiva para crear arte digital preciso en Midjourney, Stable Diffusion y DALL-E.
