@@ -1,254 +1,97 @@
-# Awesome Nano Banana Pro 🍌
+# Guía de Ingeniería de Prompts para Imágenes
 
-> **Guía Definitiva de Ingeniería de Prompts**
-
-Bienvenido a la guía profesional de *Prompt Engineering*. Este documento sirve como una referencia completa para entender, clasificar y dominar el arte de comunicarse con IAs generativas.
+Esta guía está diseñada como una referencia concisa y profesional para la creación efectiva de imágenes mediante Inteligencia Artificial (Midjourney, Stable Diffusion, DALL-E).
 
 ---
 
-## 📘 1) ¿Qué es un Prompt?
+## 1. ¿Qué es un Prompt?
 
-**Definición:**
-Un prompt es una instrucción o conjunto de instrucciones que le das a una IA para generar una respuesta deseada.
+En el contexto de la generación de imágenes, un **prompt** es la descripción textual que interpreta el modelo de IA para sintetizar una representación visual. No es simplemente una orden, sino una **especificación técnica** que define el contenido, el estilo y los atributos de la imagen resultante.
 
-**Ejemplo sencillo:**
-> "Describe la historia de David y Goliat en un tono inspirador y breve."
+Un buen prompt elimina la ambigüedad y guía a la IA hacia un resultado predecible.
 
 ---
 
-## 🧠 2) CLASIFICACIÓN DE PROMPTS
+## 2. Estructura Fundamental
 
-Los prompts se pueden agrupar por formato, objetivo y estructura avanzada.
+Para lograr resultados consistentes, se recomienda estructurar el prompt siguiendo esta jerarquía lógica. No es necesario usar todas las categorías, pero mantener el orden ayuda a la interpretación del modelo.
 
-### � A. Por formato
+### A. Sujeto (Subject)
+¿Qué es la imagen? Define el elemento central con precisión.
+*   *Ejemplo:* "Un astronauta", "Un gato persa", "Un paisaje urbano cyberpunk".
 
-#### 🔹 1. Prompt de Texto Plano
-El más común. Usado cuando quieres respuestas en lenguaje natural.
+### B. Medio y Estilo (Medium & Style)
+¿Cómo se ve? Define la estética visual o la técnica artística.
+*   *Fotografía:* "Fotografía macro 35mm", "Retrato de estudio", "Polaroid vintage".
+*   *Arte:* "Pintura al óleo", "Ilustración vectorial", "Render 3D", "Estilo anime retro".
 
-*Ejemplo:*
-> "Escribe un poema sobre esperanza sin mencionar la palabra esperanza."
+### C. Iluminación y Atmósfera (Lighting & Vibe)
+Define el clima y la luz, cruciales para el realismo y la emoción.
+*   *Luz:* "Iluminación cinematográfica", "Hora dorada", "Luz volumétrica", "Neón".
+*   *Atmósfera:* "Etéreo", "Oscuro y lúgubre", "Vibrante", "Minimalista".
 
-#### 🔹 2. Prompt Estructurado (JSON)
-Usado cuando necesitas que la IA responda con un formato predecible y parseable. Ideal para automatización e integración con código.
-
-*Ejemplo:*
-```json
-{
-  "question": "¿Cuál es la capital de Francia?",
-  "language": "español"
-}
-```
-
-#### 🔹 3. Prompt por Bloques
-Divide la instrucción en partes para guiar a la IA paso a paso.
-
-*Ejemplo:*
-1. Describe qué es la fotosíntesis.
-2. Dame un ejemplo aplicado a la vida diaria.
-
-#### 🔹 4. Prompt con Roles
-Le das a la IA un rol específico para ajustar el tono y la autoridad.
-
-*Ejemplo:*
-> "Eres un profesor de física con 10 años de experiencia. Explica la relatividad a un estudiante de secundaria."
-
-#### 🔹 5. Prompt con Restricciones
-Para explicitar lo que **no** quieres.
-
-*Ejemplo:*
-> "Describe una receta de pizza que no incluya queso ni tomate."
-
-### 📍 B. Por objetivo
-
-*   🟢 **Prompts descriptivos:** Buscan que la IA describa algo. ("Describe…")
-*   🟡 **Prompts comparativos:** Comparan dos o más cosas. ("Compara X y Y…")
-*   🔵 **Prompts instructivos:** Dan instrucciones paso por paso. ("Cómo hacer…")
-*   🔴 **Prompts opinativos:** Piden opinión o juicio simulado. ("¿Cuál es la mejor…")
-
-### 📍 C. Avanzados
-
-#### 💡 1. Prompts con contexto
-Incluyen información previa para que la IA “entienda el marco”.
-
-*Ejemplo:*
-> "Tengo 25 años, vivo en Cali y estoy aprendiendo IA. Recomiéndame recursos para comenzar en machine learning."
-
-#### 🔁 2. Prompts iterativos
-Solicitan a la IA que refine su respuesta.
-
-*Ejemplo:*
-> "Escribe un ensayo de 200 palabras. Ahora revísalo para que sea más claro."
-
-#### 🧩 3. Prompts en cadena o "chain-of-thought"
-Guían a la IA paso a paso mentalmente, ideal para tareas complejas.
+### D. Composición y Cámara (Composition)
+Cómo se encuadra la imagen.
+*   *Encuadres:* "Gran angular", "Primer plano (Close-up)", "Vista de pájaro".
+*   *Detalles:* "Enfoque nítido", "Profundidad de campo (bokeh)", "Simétrico".
 
 ---
 
-## 📘 3) PROMPTS ESTRUCTURADOS — CUÁNDO USAR JSON
+## 3. Galería de Ejemplos
 
-JSON se usa cuando:
-*   ✔ Necesitas respuestas formateadas
-*   ✔ Vas a extraer información automáticamente
-*   ✔ Quieres que la IA responda como objeto de datos
-*   ✔ Estás trabajando con código, bots o sistemas automatizados
+A continuación, se presentan ejemplos desglosados para ilustrar cómo la combinación de estos elementos crea resultados específicos.
 
-*Ejemplo de JSON para resumen:*
-```json
-{
-  "title": "Resumen del Génesis 1",
-  "summary": "string"
-}
-```
+### Ejemplo 1: Fotografía de Retrato Dramático
 
----
-
-## 🧠 4) JSON VS TEXTO PLANO
-
-| Situación | Mejor usar |
-| :--- | :--- |
-| Generar un artículo | **Texto plano** |
-| Integrar IA a una API | **JSON** |
-| Hacer imagen con especificaciones | **Texto concreto** |
-| Hacer diálogo estructurado | **JSON** |
-
----
-
-## 📘 5) PROMPTS PARA IA DE IMÁGENES
-
-Aquí hay subtipos:
-
-*   🎨 **a) Prompt Descriptivo:** Describe lo que quieres ver.
-    *   *"Un paisaje surrealista con montañas flotantes y un río violeta."*
-*   � **b) Prompt Técnico:** Incluye parámetros de cámara, luz, color, etc.
-    *   *"Fotografía 35mm, luz dorada al atardecer, enfoque suave."*
-*   📊 **c) Prompt Referencial:** Incluye referencias de estilo.
-    *   *"En el estilo visual de Studio Ghibli, con colores pastel y luz suave."*
-
----
-
-## 📘 6) RECOMENDACIONES PRÁCTICAS
-1.  ✅ **Sé específico:** Cuanto más claro, mejor.
-2.  ✅ **Usa contexto:** La IA no “sabe” sin contexto.
-3.  ❌ **Evita ambigüedades:** "No lo hagas feo" → ¿qué es “feo”?
-
----
-
-## 📘 7) ERRORES COMUNES Y CÓMO EVITARLOS
-
-*   ❌ **“Sé más creativo”**
-    *   👉 **Mejor:** "Sé creativo con metáforas poéticas, evitando clichés."
-*   ❌ **“Hazlo bonito”**
-    *   👉 **Mejor:** "Aplica lenguaje cinematográfico con foco en emoción y tono."
-
----
-
-## 📘 8) CASOS PRÁCTICOS (TEMPLATES)
-
-### 📍 A) TEMPLATE PARA PROMPT DE TEXTO
-> Eres un experto en [ÁREA]. Explica [TEMA] en un lenguaje para [AUDIENCIA], con ejemplos y pasos claros.
-
-### 📍 B) TEMPLATE PARA PROMPT DE IMAGEN
-> Un [TEMA] en estilo [ESTILO VISUAL], con [ATMÓSFERA], [LUCES], [CÁMARA], [COLOR].
-
-### 📍 C) TEMPLATE PARA PROMPT JSON
-```json
-{
-  "task": "string",
-  "input": "string",
-  "format": "string",
-  "language": "string"
-}
-```
-
----
-
-## 🧠 9) EXTENSIONES Y RICH PROMPTS
-
-Las APIs modernas (OpenAI, Gemini) aceptan instrucciones múltiples, persona/rol, indicaciones de tono, restricciones, prioridades y formatos de salida específicos.
-
----
-
-## 📘 10) EJEMPLOS EN DISTINTOS DOMINIOS
-
-*   🎓 **Educadores:** "Explica fotosíntesis a un estudiante de 15 años usando analogías de la vida diaria."
-*   💻 **Programadores:** "Genera un script Python que extraiga datos de un CSV y muestre gráficas de tendencias."
-*   🎨 **Diseño:** "Un póster minimalista con color azul y mensaje de esperanza."
-
----
-
-## 🧭 11) FUTURO DEL PROMPTING
-
-Con la IA multimodal veremos más prompts para imágenes, combinados (texto + imagen) y JSON + texto explicado.
-
----
-
-## 📘 12) EJEMPLOS AVANZADOS EN README
-
-**📌 Prompt con persona + restricciones:**
-> "Eres un entrenador de salud. Da planes de ejercicio evitando dietas ricas en azúcar."
-
-**📌 Prompt con código esperado:**
-```json
-{
-  "language": "python",
-  "task": "data_analysis",
-  "output": ["summary","chart"],
-  "constraints": {"no_gui": true}
-}
-```
-
----
-
-## 🧠 13) RECOMENDACIONES FINALES
-
-*   ✦ Usa contexto siempre
-*   ✦ Define qué quieres, no solo qué no quieres
-*   ✦ Lectura previa antes de enviar
-*   ✦ Si cambia el objetivo, reformula el prompt
-
----
-
-## � Galería de Ejemplos: Prompt vs. Imagen
-
-A continuación se muestran ejemplos visuales de cómo un prompt estructurado se traduce en una imagen final.
-
-### 🏙️ 1. Pantalla LED 3D Urbana
+Este prompt utiliza técnicas de iluminación específicas para crear misterio.
 
 **Prompt:**
 ```text
-An enormous L-shaped glasses-free 3D LED screen situated prominently at a bustling urban intersection, designed in an iconic architectural style reminiscent of Shinjuku in Tokyo or Taikoo Li in Chengdu. The screen displays a captivating glasses-free 3D animation featuring [scene description]. The characters and objects possess striking depth and appear to break through the screen's boundaries, extending outward or floating vividly in mid-air. Under realistic daylight conditions, these elements cast lifelike shadows onto the screen's surface and surrounding buildings. Rich in intricate detail and vibrant colors, the animation seamlessly integrates with the urban setting and the bright sky overhead.
-
-----
-scene description:
-[An adorable giant kitten playfully paws at passing pedestrians, its fluffy paws and curious face extending realistically into the space around the screen.]
+Hyperrealistic portrait of a woman standing in a black background. Lighting is a narrow beam spotlight focused only on the face, creating high contrast and deep shadows (chiaroscuro). Long dark hair fading into the shadows. Her expression is mysterious, looking directly at the camera. Shot on 85mm lens, f/1.8 for shallow depth of field.
 ```
 
-*(Aquí iría la imagen generada, mostrando el gato gigante saliendo de la pantalla)*
+**Análisis:**
+*   **Sujeto:** Retrato de mujer.
+*   **Estilo:** Hiperrealista.
+*   **Iluminación:** "Narrow beam spotlight", "Chiaroscuro" (define el dramatismo).
+*   **Técnica:** "85mm lens, f/1.8" (lenguaje fotográfico real para desenfoque y proporción).
 
 ---
 
-### 👤 2. Retrato Estilo "Spotlight"
+### Ejemplo 2: Arquitectura Surrealista
+
+Este prompt mezcla elementos urbanos con fantasía, requiriendo descripciones detalladas de la interacción entre objetos.
 
 **Prompt:**
 ```text
-Generate a hyperrealistic realistic-anime portrait of a female character standing in a completely black background.
-Lighting: use a **narrow beam spotlight** focused only on the center of the face.
-The edges of the light must be sharp and dramatic.
-All areas outside the spotlight should fall quickly into deep darkness
-(high falloff shadow), almost blending into the black background.
-Not soft lighting.
-Hair: long dark hair with some strands falling over the face. The lower parts of the hair should fade into the shadows.
-Pose: one hand raised gently to the lips in a shy, hesitant gesture.
-Eyes looking directly at the camera with a mysterious mood.
-Clothing: black long-sleeve knit sweater;
-the sweater and body should mostly disappear into the darkness with minimal detail.
-Overall tone: dark, moody, dramatic, mysterious.
-High-contrast only in the lit portion of the face.
-Everything outside the spotlight should be nearly invisible.
+A futuristic L-shaped urban intersection in Tokyo involves a giant 3D LED screen. A giant playful kitten appears to be popping out of the screen, reaching for pedestrians with 3D depth effect. Realistic daylight, vibrant city colors, highly detailed architectural elements, 8k resolution, unreal engine 5 render style.
 ```
 
-*(Aquí iría la imagen generada, mostrando el retrato dramático)*
+**Análisis:**
+*   **Sujeto:** Intersección urbana con pantalla 3D y un gato gigante.
+*   **Acción:** "Popping out of the screen" (define la dinámica 3D).
+*   **Estilo:** "Unreal Engine 5 render", "8k" (indica alta fidelidad digital, no necesariamente fotografía real).
 
 ---
-*Más ejemplos próximamente...*
-# ai-image-prompting-guide
+
+### Ejemplo 3: Ilustración Botánica Vintage
+
+Un ejemplo de estilo artístico específico.
+
+**Prompt:**
+```text
+Botanical illustration of a medicinal herb on parchment paper. Faded watercolor style, detailed line work, ink outlines. text labels in latin, vintage scientific diagram aesthetic, soft desaturated colors.
+```
+
+**Análisis:**
+*   **Medio:** "Botanical illustration", "Watercolor".
+*   **Soporte:** "Parchment paper" (papel pergamino).
+*   **Atmósfera:** "Vintage scientific diagram".
+
+---
+
+## Consejos de Optimización
+
+1.  **Iteración:** Rara vez el primer prompt es perfecto. Ajusta una variable a la vez (ej. cambia solo la iluminación).
+2.  **Referencia de Estilos:** Mencionar directores de cine (ej. *Wes Anderson*), pintores (*Van Gogh*) o épocas (*1980s retro*) es un atajo muy potente.
+3.  **Orden de Importancia:** Lo que escribes al principio del prompt tiene más peso para la IA que lo que escribes al final.
